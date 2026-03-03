@@ -56,7 +56,8 @@ Three key takeaways:
 The ideal launch strategy should prioritize high-utilization cities and focus on occupation-based targeting.
 
 
-**Dashboard Preview**  
+**Dashboard Preview** 
+
 ![Power BI Dashboard - Customer Demographics](images/dashboard_page1.png)  
 
 ![Power BI Dashboard - Income Utilization Analysis](images/dashboard_page2.png)  
