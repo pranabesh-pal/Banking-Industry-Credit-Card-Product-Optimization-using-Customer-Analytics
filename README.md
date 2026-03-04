@@ -88,74 +88,139 @@ Age Group Distribution:
 
 
 **Main Insight 3**
-Age Group Distribution:
-- 25–34 → highest segment (1498 customers)
-- 35–45 → strong secondary segment (1273 customers)
-- 45+ → lowest representation (538 customers)
+Occupation Breakdown:
+- Salaried IT Professionals → 1,294 (largest segment)
+- Other Salaried Employees → 893
+- Business Owners → significant mid-tier segment
+- Government Employees → smallest segment
+
+![Total Customers by Occupation](images/total_cust_occu.png)
 
 
----
+**Main Insight 4**
+Income Distribution:
+- 60K+ → 38% (largest income bracket)
+- 30K–40K → 27%
+- 20K–30K → 5% (smallest)
 
-### 2. Keyword Insights  
-- Top keywords (**“herself”, “where”**) generated ROI >50%.  
-- Several keywords showed **high spend but low conversions**, signaling wasted budget.  
+![Total Customers by Income Bracket](images/total_cust_income.png)
 
-![Top 10 Keywords](images/top_10_keywords.PNG)  
 
----
-
-### 3. Regional Insights  
-- **UK** achieved the highest ROI (55%), followed by **UAE (23%)**.  
-- **India & USA underperformed** (<15% ROI).  
-
-![Regional Insights](images/regional_insights.PNG)  
+So, the customer base is dominated by salaried professionals in early-to-mid career stages — ideal for structured credit-based products.
 
 ---
 
-### 4. Customer Insights  
-- **Age group 18–25** showed the strongest ROI (>40%).  
-- Older age groups had declining ROI, suggesting reduced effectiveness.  
+### 2. Income Utilization & Credit Potential
 
-![Customer Insights](images/customer_insights.PNG)  
+**Average Monthly Income:** ₹51.65K
+**Average Income Utilization:** 43%
+
+![Income Utilization KPIs](images/income_kpi.png)
+
+
+**Main Insight 1**
+**High-income customers (60K+)** maintain **high utilization (44%)**, showing strong credit absorption capacity. Also, Income utilization is relatively consistent across income brackets (34%–45%), suggesting spending scales with earnings.
+
+![Income Utilization % by Income Bracket](images/Income_uti_bracket.png)
+
+
+**Main Insight 2**
+IT professionals aged 35–45 show the highest utilization (55%).
+
+![Income Utilization % by Age and Occupation](images/income_uti_age_occu.png)
+
+
+**Main Insight 3**
+Certain metro cities demonstrate higher utilization (above 48%), indicating strong credit card potential.
+
+![Income Utilization % by City](images/income_uti_city.png)
+
+
+This indicates that higher earners are not conservative spenders — they represent ideal candidates for premium or reward-based credit cards.
 
 ---
 
-### 5. Budget Waste Analysis  
-- Only **0.24% of total spend** was wasted.  
-- Wasted budget was concentrated in **low CTR / high CPC ads**.  
+### 3. Spending & Payment Behavior
+**Total Spend:** ₹531M
+**Average Monthly Spend:** ₹22.12K
+**Credit Card Spend :** ₹216M
+**Credit Card Usage:** 41% of total spend
 
-![Budget Waste Analysis](images/budget_waste_analysis.PNG)  
+![Spend Analysis KPIs](images/spend_kpi.png)
+
+
+**Main Insight 1**
+Spending trend peaks in September, indicating seasonal influence.
+
+![Spend Trend](images/spend_trend.png)
+
+
+**Main Insight 2**
+**Credit cards** dominate **Bills and Electronics** spending. **UPI** strongly competes in **Groceries** category — indicating incentive opportunity.
+
+Top Spending Categories:
+- Bills
+- Groceries
+- Electronics
+- Health & Wellness
+- Travel
+
+![Total spend by Category](images/spend_category.png)
+
+
+**Main Insight 3**
+**Salaried IT employees** have the most contribution in total spend **(₹244M)**, which suggests that they are the most spending group, while **government employees** spend the least among other occupation groups **(₹36M)**.
+
+![Total Spend by Occupation](images/spend_occu.png)
+
+
+**Main Insight 4**
+**Credit cards** hold a significant share of the total spend, which is **₹216M (41% of total spend)**. On second and third payment modes, we have **UPI** and **Debit Cards** with **₹141M (27% of total spend)** and **₹120M (23% of total spend)**, respectively.
+
+![Total Spend by Payment Method](images/spend_groups.png)
+
+
+**Main Insight 5**
+The age group **25-34** seems to spend the most **(₹204M)**, and their preferred payment mode seems to be **Credit Cards**, followed by **UPI and Debit Cards**. The other age group follows a similar preferance of payment modes. 
+
+![Total Spend by Age](images/spend_age.png)
+
+
+All this indicates  that customers are already comfortable using credit cards, but strategic rewards in competitive categories can significantly increase adoption.
 
 ---
 
 ## Recommendations  
-- **Increase spend** on high ROI campaigns (e.g., 17, 1) and keywords (“herself”, “where”).  
-- **Pause or reduce** underperforming campaigns and ads.  
-- **Reallocate budget** to high-performing regions (UK) and younger demographics (18–25).  
-- **Audit and refine** underperforming keywords with high CPC to reduce wasted spend.  
+- Launch initially in **high-utilization metro cities** like **Mumbai, Delhi, and Bangalore**.
+- Target **salaried IT professionals, salaried other professionals, and business owners aged 25–45**.
+- Introduce **cashback or rewards** in **groceries, dining, and entertainment** to compete with UPI.
+- Offer **enhanced benefits** on **bills, electronics, travel, and health categories**.
+- Align launch timeline with **peak seasonal spending months (pre-festive period)**.
 
 ---
 
 ## Assumptions & Caveats  
-- Missing values in clicks, impressions, and conversions were imputed with **medians**.  
-- Nulls in **Revenue per Conversion** (≈0.2%) were retained, as they likely indicate incomplete tracking.  
-- Logical inconsistencies (e.g., clicks > impressions) were removed.  
-- Dataset is **simulated** and may not perfectly reflect real-world Google Ads tracking.  
+- The dataset covers only six months of transaction history.
+- Pilot dataset includes 4,000 customers only.
+- Income utilization assumes a stable monthly income.
+- Outliers were treated using median-based methods.
 
 ---
 
-## Project Artifacts  
-- **SQL Queries** – [Click Here](sql)  
-- **Python Notebooks** – [Click Here](notebooks)  
-- **Excel Preliminary Dashboard** – [Click Here](excel_report)  
-- **Power BI Executive Dashboard** – [Click Here](powerbi_dashboard)  
+## Tools Used  
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Jupyter Notebook
+- PostgreSQL
+- Power BI
 
 ---
 
-## Dashboard Snapshots  
+## Project Outcome  
+This project demonstrates:
+- End-to-end data cleaning & transformation
+- SQL-based business querying
+- KPI creation & metric design
+- Executive-level dashboard storytelling
+- Strategic product recommendation
 
-### Excel Preliminary Report  
-![Excel Preliminary Report](images/excel_preliminary_report.PNG)  
-
-### Power BI Executive Dashboard  
-![Power BI Dashboard](images/powerbi_dashboard.PNG)  
+The analysis provides a structured, data-backed approach for optimizing credit card product strategy within the banking industry.
