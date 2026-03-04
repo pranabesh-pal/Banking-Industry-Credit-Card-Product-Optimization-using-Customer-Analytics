@@ -73,7 +73,9 @@ The ideal launch strategy should prioritize high-utilization cities and focus on
 **Main Insight 1**
 
 Total customers: 4,000
+
 65% Male - 2611 | 35% Female - 1389
+
 71% Married - 2826 | 19% Single - 779 | 10% Unknown - 395 
 
 ![Total Customers by Gender & Marital Status](images/total_cust_gender_marital.png) 
@@ -117,6 +119,7 @@ So, the customer base is dominated by salaried professionals in early-to-mid car
 ### 2. Income Utilization & Credit Potential
 
 **Average Monthly Income:** ₹51.65K
+
 **Average Income Utilization:** 43%
 
 ![Income Utilization KPIs](images/income_kpi.png)
@@ -149,8 +152,11 @@ This indicates that higher earners are not conservative spenders — they repres
 
 ### 3. Spending & Payment Behavior
 **Total Spend:** ₹531M
+
 **Average Monthly Spend:** ₹22.12K
+
 **Credit Card Spend :** ₹216M
+
 **Credit Card Usage:** 41% of total spend
 
 ![Spend Analysis KPIs](images/spend_kpi.png)
@@ -158,14 +164,14 @@ This indicates that higher earners are not conservative spenders — they repres
 
 **Main Insight 1**
 
-Spending trend peaks in September, indicating seasonal influence.
+Spending trend peaks in **September**, indicating **seasonal influence**.
 
 ![Spend Trend](images/spend_trend.png)
 
 
 **Main Insight 2**
 
-**Credit cards** dominate **Bills and Electronics** spending. **UPI** strongly competes in **Groceries** category — indicating incentive opportunity.
+**Credit cards** dominate **Bills** and **Electronics** spending. **UPI** strongly competes in **Groceries** category — indicating incentive opportunity.
 
 Top Spending Categories:
 - Bills
@@ -179,7 +185,7 @@ Top Spending Categories:
 
 **Main Insight 3**
 
-**Salaried IT employees** have the most contribution in total spend **(₹244M)**, which suggests that they are the most spending group, while **government employees** spend the least among other occupation groups **(₹36M)**.
+**Salaried IT employees** have the most contribution in total spend **(₹244M)**, which suggests that they are the most spending group, while **Government employees** spend the least among other occupation groups **(₹36M)**.
 
 ![Total Spend by Occupation](images/spend_occu.png)
 
