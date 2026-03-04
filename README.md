@@ -71,6 +71,7 @@ The ideal launch strategy should prioritize high-utilization cities and focus on
 ### 1. Customer Demographics
 
 **Main Insight 1**
+
 Total customers: 4,000
 65% Male - 2611 | 35% Female - 1389
 71% Married - 2826 | 19% Single - 779 | 10% Unknown - 395 
@@ -79,6 +80,7 @@ Total customers: 4,000
 
 
 **Main Insight 2**
+
 Age Group Distribution:
 - 25–34 → highest segment (1498 customers)
 - 35–45 → strong secondary segment (1273 customers)
@@ -88,6 +90,7 @@ Age Group Distribution:
 
 
 **Main Insight 3**
+
 Occupation Breakdown:
 - Salaried IT Professionals → 1,294 (largest segment)
 - Other Salaried Employees → 893
@@ -98,6 +101,7 @@ Occupation Breakdown:
 
 
 **Main Insight 4**
+
 Income Distribution:
 - 60K+ → 38% (largest income bracket)
 - 30K–40K → 27%
@@ -119,18 +123,21 @@ So, the customer base is dominated by salaried professionals in early-to-mid car
 
 
 **Main Insight 1**
+
 **High-income customers (60K+)** maintain **high utilization (44%)**, showing strong credit absorption capacity. Also, Income utilization is relatively consistent across income brackets (34%–45%), suggesting spending scales with earnings.
 
 ![Income Utilization % by Income Bracket](images/Income_uti_bracket.png)
 
 
 **Main Insight 2**
+
 IT professionals aged 35–45 show the highest utilization (55%).
 
 ![Income Utilization % by Age and Occupation](images/income_uti_age_occu.png)
 
 
 **Main Insight 3**
+
 Certain metro cities demonstrate higher utilization (above 48%), indicating strong credit card potential.
 
 ![Income Utilization % by City](images/income_uti_city.png)
@@ -150,12 +157,14 @@ This indicates that higher earners are not conservative spenders — they repres
 
 
 **Main Insight 1**
+
 Spending trend peaks in September, indicating seasonal influence.
 
 ![Spend Trend](images/spend_trend.png)
 
 
 **Main Insight 2**
+
 **Credit cards** dominate **Bills and Electronics** spending. **UPI** strongly competes in **Groceries** category — indicating incentive opportunity.
 
 Top Spending Categories:
@@ -169,18 +178,21 @@ Top Spending Categories:
 
 
 **Main Insight 3**
+
 **Salaried IT employees** have the most contribution in total spend **(₹244M)**, which suggests that they are the most spending group, while **government employees** spend the least among other occupation groups **(₹36M)**.
 
 ![Total Spend by Occupation](images/spend_occu.png)
 
 
 **Main Insight 4**
+
 **Credit cards** hold a significant share of the total spend, which is **₹216M (41% of total spend)**. On second and third payment modes, we have **UPI** and **Debit Cards** with **₹141M (27% of total spend)** and **₹120M (23% of total spend)**, respectively.
 
 ![Total Spend by Payment Method](images/spend_groups.png)
 
 
 **Main Insight 5**
+
 The age group **25-34** seems to spend the most **(₹204M)**, and their preferred payment mode seems to be **Credit Cards**, followed by **UPI and Debit Cards**. The other age group follows a similar preferance of payment modes. 
 
 ![Total Spend by Age](images/spend_age.png)
